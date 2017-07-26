@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # demonstrates a basic perceptron classifier on MNIST dataset
 
-# I'm lazy and use prepackaged MNIST dataset https://github.com/sorki/python-mnist
+# I'm lazy and use preprocessor code for MNIST dataset https://github.com/sorki/python-mnist
 from mnist import MNIST
 
 import numpy as np
@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 np.random.seed(996) #predictable randomness
 
 def train_perceptron(data, values, n_iter=100, rate=1.0):
-    # object oriented PML is nice enough, but
+    # object oriented PML is nice enough, but I can't bother with OO for simple things
     dn = len(data)
     ddim = len(data[0])
     # we want to go through the train data in random order

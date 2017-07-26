@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # demonstrates a adaline perceptron classifier on MNIST dataset
 
-# I'm lazy and use prepackaged MNIST dataset https://github.com/sorki/python-mnist
+# I'm lazy and use preprocessor code for MNIST dataset https://github.com/sorki/python-mnist
 from mnist import MNIST
 
 import numpy as np
