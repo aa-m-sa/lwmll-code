@@ -17,9 +17,13 @@ Let's review contents of an undergraduate ML course!
 
 ### Some results
 
-Adaline, 5 vs 6 classification task error rate on training and test sets:
+Adaline, digits '5' vs '6' classification task error rate on training and test sets:
 
 ![](https://github.com/aa-m-sa/lwmll-code/raw/master/pics/ada_error_56.png)
+
+Classification between '0' and '1' is easier:
+
+![](https://github.com/aa-m-sa/lwmll-code/raw/master/pics/ada_error_10.png)
 
 Scikit Perceptron, 1 vs all multiclass (all labels [0, ..., 1]) classification:
 
