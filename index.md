@@ -28,3 +28,5 @@ Classification between '0' and '1' is easier:
 Scikit Perceptron, 1 vs all multiclass (all labels [0, ..., 1]) classification:
 
 ![](https://github.com/aa-m-sa/lwmll-code/raw/master/pics/percep_scikit_error_200.png)
+
+`sklearn` implements perceptron as a special case of the more general linear SGD classifier, see details (like nice illustration how 1-vs-all classification works) [on sklearn docs](http://scikit-learn.org/stable/modules/sgd.html#classification).
