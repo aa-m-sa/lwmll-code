@@ -71,7 +71,8 @@ Saga l2 (ridge regression) and l1 (LASSO):
 
 ![](https://github.com/aa-m-sa/lwmll-code/raw/master/pics/logistic_scikit_error_100_l1_saga.png)
 
-Expected a more noticeable difference between these two, but OTOH we are fitting a fairly simple linear model and then evaluating performance of the decision boundaries, so maybe it does not make that much difference how strongly weights tend to 0 / 'sparse' they are.
+Expected a more noticeable difference *in the best performance* between these two, but OTOH we are fitting a fairly simple linear model and then evaluating performance of the decision boundaries, so maybe it does not make that much difference how strongly weights tend to 0 / 'sparse' they are.
+But l1 behavior with changing $$C$$ is curious.
 
 (Also I always seem to learn new things by searching things I already 'know' simply searching relevant SE sites, [see](https://stats.stackexchange.com/questions/866/when-should-i-use-lasso-vs-ridge). TIL)
 
