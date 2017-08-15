@@ -1,6 +1,6 @@
 # README
 
-Python codes for LWMLL study circle / reading group.
+Scikit demos for LWMLL study circle / reading group.
 
 ## Notes
 
